@@ -1,5 +1,8 @@
 package io.github.buyiomc;
 
+import io.github.buyiomc.block.ModBlocks;
+import io.github.buyiomc.item.ModItemGroups;
+import io.github.buyiomc.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -9,7 +12,7 @@ public class CodeMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final String MOD_ID = "Code Mod";
+	public static final String MOD_ID = "codemod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -17,6 +20,10 @@ public class CodeMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+		ModItems.registerModItems();
+		ModItemGroups.registerModItemsGroups();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}

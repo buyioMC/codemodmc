@@ -1,0 +1,6 @@
+{
+  "item.codemod.java_language": "java语言",
+  "item.codemod.compiler": "编译器",
+  "block.codemod.code_edit": "代码编辑器",
+  "ItemGroup.code_group": "编程"
+}
