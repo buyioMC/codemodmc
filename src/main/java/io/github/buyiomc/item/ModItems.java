@@ -1,6 +1,7 @@
 package io.github.buyiomc.item;
 
 import io.github.buyiomc.CodeMod;
+import io.github.buyiomc.item.custom.NullPointerException;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -13,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item JAVA_LANGUAGE = registerItems("java_language", new Item(new Item.Settings()));
     public static final Item COMPILER = registerItems("compiler", new Item(new Item.Settings()));
+    public static final Item JAVA_CLASS_FILE = registerItems("java_class_file", new Item(new Item.Settings().maxCount(1)));
+    public static final Item NULL_POINTER_EXCEPTION = registerItems("null_pointer_exception", new NullPointerException(new Item.Settings().maxCount(1)));
     private static Item registerItems(String id, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CodeMod.MOD_ID, id), item);
     }
@@ -20,6 +23,8 @@ public class ModItems {
     private static void addItemToIG(FabricItemGroupEntries fabricItemGroupEntries) {
         fabricItemGroupEntries.add(JAVA_LANGUAGE);
         fabricItemGroupEntries.add(COMPILER);
+        fabricItemGroupEntries.add(JAVA_CLASS_FILE);
+        fabricItemGroupEntries.add(NULL_POINTER_EXCEPTION);
     }
 
     public static void registerModItems() {

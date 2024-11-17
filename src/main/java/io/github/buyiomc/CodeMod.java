@@ -5,6 +5,7 @@ import io.github.buyiomc.item.ModItemGroups;
 import io.github.buyiomc.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +25,8 @@ public class CodeMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemsGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.NULL_POINTER_EXCEPTION, 1600);
 
 		LOGGER.info("Hello Fabric world!");
 	}

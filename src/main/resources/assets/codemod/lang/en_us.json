@@ -2,5 +2,7 @@
   "item.codemod.java_language": "Java language",
   "item.codemod.compiler": "Compiler",
   "block.codemod.code_edit": "Code Edit",
+  "item.codemod.java_class_file": "Java Class file",
+  "item.codemod.null_pointer_exception":"Null Pointer Exception",
   "ItemGroup.code_group": "Code"
 }

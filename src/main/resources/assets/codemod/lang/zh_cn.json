@@ -2,5 +2,7 @@
   "item.codemod.java_language": "java语言",
   "item.codemod.compiler": "编译器",
   "block.codemod.code_edit": "代码编辑器",
+  "item.codemod.java_class_file": "Java Class文件",
+  "item.codemod.null_pointer_exception":"空指针异常",
   "ItemGroup.code_group": "编程"
 }

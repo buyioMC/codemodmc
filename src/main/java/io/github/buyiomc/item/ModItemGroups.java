@@ -21,6 +21,8 @@ public class ModItemGroups {
                     entries.add(ModItems.JAVA_LANGUAGE);
                     entries.add(ModItems.COMPILER);
                     entries.add(ModBlocks.CODE_EDIT);
+                    entries.add(ModItems.JAVA_CLASS_FILE);
+                    entries.add(ModItems.NULL_POINTER_EXCEPTION);
                 }).build());
 
     public static void registerModItemsGroups() {

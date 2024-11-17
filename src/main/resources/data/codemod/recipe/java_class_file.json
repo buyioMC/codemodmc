@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "code",
+
+  "ingredients": [
+    {
+      "item": "codemod:code_edit"
+    },
+    {
+      "item": "codemod:java_language"
+    },
+    {
+      "item": "codemod:compiler"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "codemod:java_class_file"
+  }
+}
