@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "code",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "colorful egg",
+  "ingredient": {
+    "item": "codemod:embedded_project_bin"
+  },
+  "result": {
+    "id": "codemod:hot_piece"
+  }
+}

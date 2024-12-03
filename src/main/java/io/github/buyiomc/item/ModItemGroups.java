@@ -23,6 +23,11 @@ public class ModItemGroups {
                     entries.add(ModBlocks.CODE_EDIT);
                     entries.add(ModItems.JAVA_CLASS_FILE);
                     entries.add(ModItems.NULL_POINTER_EXCEPTION);
+                    entries.add(ModItems.C_LANGUAGE);
+                    entries.add(ModItems.EMBEDDED_PROJECT_BIN);
+                    entries.add(ModItems.HOT_PIECE);
+                    entries.add(ModItems.MICROCONTROLLER);
+                    entries.add(ModBlocks.KEIL);
                 }).build());
 
     public static void registerModItemsGroups() {

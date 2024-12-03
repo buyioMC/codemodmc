@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "code",
+
+  "ingredients": [
+    {
+      "item": "codemod:c_language"
+    },
+    {
+      "item": "codemod:keil"
+    },
+    {
+      "item": "codemod:compiler"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "codemod:embedded_project_bin"
+  }
+}

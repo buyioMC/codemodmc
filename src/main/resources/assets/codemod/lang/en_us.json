@@ -4,5 +4,10 @@
   "block.codemod.code_edit": "Code Edit",
   "item.codemod.java_class_file": "Java Class file",
   "item.codemod.null_pointer_exception":"Null Pointer Exception",
+  "item.codemod.c_language": "C Language",
+  "item.codemod.hot_piece": "Hot Piece",
+  "item.codemod.microcontroller": "Microcontroller",
+  "item.codemod.embedded_project_bin": "Embedded Project.bin",
+  "block.codemod.keil": "Keil",
   "ItemGroup.code_group": "Code"
 }

@@ -4,5 +4,10 @@
   "block.codemod.code_edit": "代码编辑器",
   "item.codemod.java_class_file": "Java Class文件",
   "item.codemod.null_pointer_exception":"空指针异常",
+  "item.codemod.c_language": "C 语言",
+  "item.codemod.hot_piece": "发热片",
+  "item.codemod.microcontroller": "单片机",
+  "item.codemod.embedded_project_bin": "嵌入式项目.bin",
+  "block.codemod.keil": "Keil",
   "ItemGroup.code_group": "编程"
 }

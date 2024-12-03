@@ -27,6 +27,7 @@ public class CodeMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		FuelRegistry.INSTANCE.add(ModItems.NULL_POINTER_EXCEPTION, 1600);
+		FuelRegistry.INSTANCE.add(ModItems.MICROCONTROLLER, 1600);
 
 		LOGGER.info("Hello Fabric world!");
 	}
