@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CODE_EDIT = register("code_edit", new Block(AbstractBlock.Settings.create().strength(0.7f, 0.7f)));
-    public static final Block KEIL = register("keil_edit", new Block(AbstractBlock.Settings.create().strength(0.7f, 0.7f)));
+    public static final Block KEIL = register("keil", new Block(AbstractBlock.Settings.create().strength(0.7f, 0.7f)));
 
     public static void registerBlockItems(String id, Block block) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(CodeMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));
